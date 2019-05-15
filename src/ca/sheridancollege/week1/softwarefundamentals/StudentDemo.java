@@ -15,13 +15,15 @@ package ca.sheridancollege.week1.softwarefundamentals;
 public class StudentDemo {
 
     private String name;
+    private String nickname;
+    private int sid; 
     private int n;
 
     //constructor
     public StudentDemo(String givenName,int n)
     {
-        name=givenName;
-        sid = n;
+        this.name=givenName;
+        this.sid = n;
     }
     /**
      * @return the name
@@ -35,6 +37,34 @@ public class StudentDemo {
      */
     public void setName(String givenName) {
         name = givenName;
+    }
+
+    /**
+     * @return the nickname
+     */
+    public String getNickname() {
+        return nickname;
+    }
+
+    /**
+     * @param nickname the nickname to set
+     */
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
+    }
+
+    /**
+     * @return the sid
+     */
+    public int getSid() {
+        return sid;
+    }
+
+    /**
+     * @param sid the sid to set
+     */
+    public void setSid(int sid) {
+        this.sid = sid;
     }
     
     
