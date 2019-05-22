@@ -17,7 +17,7 @@ public class StudentDemo {
     private String name;
     private String nickname;
     private int sid; 
-    private int n;
+    private int maxCourse;
 
     //constructor
     public StudentDemo(String givenName,int n)
@@ -65,6 +65,20 @@ public class StudentDemo {
      */
     public void setSid(int sid) {
         this.sid = sid;
+    }
+
+    /**
+     * @return the maxCourse
+     */
+    public int getMaxCourse() {
+        return maxCourse;
+    }
+
+    /**
+     * @param maxCourse the maxCourse to set
+     */
+    public void setMaxCourse(int maxCourse) {
+        this.maxCourse = maxCourse;
     }
     
     
