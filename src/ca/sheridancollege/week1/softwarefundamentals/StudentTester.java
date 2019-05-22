@@ -28,6 +28,7 @@ public class StudentTester {
         for(int i=0;i<StudentLst.length;i++)
         {
             System.out.println(StudentLst[i].getName() + StudentLst[i].getSid());
+         System.out.println("testing fetch");
         }
         
         }
